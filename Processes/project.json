@@ -4,25 +4,30 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.DocumentUnderstanding.ML.Activities": "[1.13.2]",
-    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Form.Activities": "[1.9.6]",
+    "UiPath.FormActivityLibrary": "[1.9.6]",
+    "UiPath.FormActivityLibrary.Contracts": "[1.9.6]",
     "UiPath.IntelligentOCR.Activities": "[6.0.1]",
-    "UiPath.Mail.Activities": "[1.12.2]",
-    "UiPath.System.Activities": "[21.10.2]",
-    "UiPath.UIAutomation.Activities": "[21.10.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.Persistence.Activities": "[1.4.1]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]",
     "UiPathTeam.AttendedRobotStatus.Activities": "[1.0.30]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.3.0",
-  "projectVersion": "1.0.14",
+  "projectVersion": "1.0.110789929",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
     "requiresUserInteraction": true,
-    "supportsPersistence": false,
+    "supportsPersistence": true,
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -42,7 +47,26 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9ceed304-98f0-4547-851e-89e93e7bdfec",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\FT_OCS_SAPLogin.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5a4025f8-51ce-4f48-8a56-fe0023e99d19",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\FT_OCS_GetFilesAndLoadTaxonomy.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cad74c31-1bcc-49ef-b197-7a33cee775b2",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\FT_OCS_CheckAPIKey.xaml"
+      }
+    ],
     "modernBehavior": true
   },
   "arguments": {
